@@ -11,6 +11,11 @@ public class Hello {
         changeArray(arr);
         System.out.println("еще раз в main arr: " + Arrays.toString(arr));
         System.out.println(arr);
+        test();
+    }
+
+    private static void test() {
+        System.out.println("test");
     }
 
     private static void changeArray(int[] arr) {
