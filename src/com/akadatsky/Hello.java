@@ -28,6 +28,10 @@ public class Hello {
         System.out.println("test2");
     }
 
+    private static void test3() {
+        System.out.println("test2");
+    }
+
 
 }
 
