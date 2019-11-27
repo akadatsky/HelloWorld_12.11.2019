@@ -7,15 +7,13 @@ public class Hello {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(arr));
-        System.out.println(arr);
         changeArray(arr);
         System.out.println("еще раз в main arr: " + Arrays.toString(arr));
-        System.out.println(arr);
         test();
     }
 
     private static void test() {
-        System.out.println("test");
+        System.out.println("TEST");
     }
 
     private static void changeArray(int[] arr) {
@@ -25,6 +23,11 @@ public class Hello {
         System.out.println("Новый массив: " + Arrays.toString(arr));
         System.out.println(arr);
     }
+
+    private static void test2() {
+        System.out.println("test2");
+    }
+
 
 }
 
